@@ -1,6 +1,6 @@
 {
   "name": "stimulus-checkbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stimulus controller to toggle/untoggle multiple checkboxes",
   "main": "dist/stimulus-checkbox.js",
   "source": "src/index.js",
