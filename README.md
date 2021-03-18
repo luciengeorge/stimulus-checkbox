@@ -15,6 +15,6 @@ application.register('checkbox', Checkbox);
 ```html
 <div data-controller="checkbox">
   <input type="checkbox" data-checkbox-target="btn" data-action="change->checkbox#toggle">
-  <input type="checkbox" data-checkbox-target="box">
+  <input type="checkbox" data-checkbox-target="box" data-action="change->checkbox#toggleOne">
 </div>
 ```
