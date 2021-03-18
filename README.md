@@ -1,5 +1,8 @@
- [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
+![License: MIT](https://img.shields.io/github/license/lucien-george/stimulus-checkbox)
+ 
+![](https://img.shields.io/github/checks-status/lucien-george/stimulus-checkbox/master)
+ 
+[![https://nodei.co/npm/stimulus-checkbox.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/stimulus-checkbox.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/stimulus-checkbox)
 ## Usage
 ### Installation
 ```bash
