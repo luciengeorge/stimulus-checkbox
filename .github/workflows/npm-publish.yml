@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: '14'
       - uses: c-hive/gha-yarn-cache@v1
       - run: yarn install --frozen-lockfile
       - run: yarn build --if-present
@@ -25,9 +25,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: '14'
           registry-url: https://registry.npmjs.org/
       - uses: c-hive/gha-yarn-cache@v1
       - run: yarn install --frozen-lockfile
@@ -40,9 +40,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: '14'
           registry-url: https://npm.pkg.github.com/
       - uses: c-hive/gha-yarn-cache@v1
       - run: yarn install --frozen-lockfile
