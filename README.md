@@ -1,4 +1,5 @@
 ![License: MIT](https://img.shields.io/github/license/lucien-george/stimulus-checkbox)
+![](https://img.shields.io/npm/v/stimulus-checkbox)
 ![](https://github.com/lucien-george/stimulus-checkbox/workflows/Node/badge.svg)
  
 [![https://nodei.co/npm/stimulus-checkbox.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/stimulus-checkbox.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/stimulus-checkbox)
