@@ -1,0 +1,2 @@
+import{Controller as t}from"stimulus";function o(t,r){return(o=Object.setPrototypeOf||function(t,o){return t.__proto__=o,t})(t,r)}var r=function(t){var r,e;function n(){return t.apply(this,arguments)||this}return e=t,(r=n).prototype=Object.create(e.prototype),r.prototype.constructor=r,o(r,e),n.prototype.toggle=function(){var t=this;this.boxTargets.forEach(function(o){o.checked=t.btnTarget.checked})},n}(t);r.targets=["box","btn"];export default r;
+//# sourceMappingURL=stimulus-checkbox.esm.js.map

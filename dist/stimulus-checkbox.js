@@ -1,0 +1,2 @@
+function t(r,o){return(t=Object.setPrototypeOf||function(t,r){return t.__proto__=r,t})(r,o)}var r=function(r){var o,e;function n(){return r.apply(this,arguments)||this}return e=r,(o=n).prototype=Object.create(e.prototype),o.prototype.constructor=o,t(o,e),n.prototype.toggle=function(){var t=this;this.boxTargets.forEach(function(r){r.checked=t.btnTarget.checked})},n}(require("stimulus").Controller);r.targets=["box","btn"],module.exports=r;
+//# sourceMappingURL=stimulus-checkbox.js.map
