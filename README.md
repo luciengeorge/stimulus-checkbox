@@ -1,11 +1,11 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Usage
-### In your terminal
+### Installation
 ```bash
 yarn add stimulus-checkbox
 ```
-### within `app/javascript/controllers/index.js`
+### Register the controller to your StimulusJS application
 ```js
 import { Application } from 'stimulus';
 const application = Application.start();
