@@ -1,2 +1,2 @@
-import{Controller as t}from"stimulus";class e extends t{toggle(){this.boxTargets.forEach(t=>{t.checked=this.btnTarget.checked})}}e.targets=["box","btn"];export default e;
+import{Controller as t}from"@hotwired/stimulus";class e extends t{connect(){this.updateBtnState()}toggle(){this.boxTargets.forEach(t=>{t.checked=this.btnTarget.checked})}toggleOne(){this.updateBtnState()}updateBtnState(){this.boxTargets.every(t=>t.checked)?this.btnTarget.checked=!0:0!==this.boxTargets.filter(t=>t.checked).length?this.btnTarget.indeterminate=!0:this.btnTarget.checked=!1}}e.targets=["box","btn"];export{e as default};
 //# sourceMappingURL=stimulus-checkbox.modern.js.map
